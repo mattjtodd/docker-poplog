@@ -11,10 +11,18 @@ The other languages are all implemented in Pop-11.
 
 [http://www.cs.bham.ac.uk/research/projects/poplog/freepoplog.html]
 
-## Build & Run
+## Build
 
 `docker build -t mattjtodd/poplog .`
 
+## Run
+
+### CLI
+
 `docker run --name poplog  --rm -it mattjtodd/poplog`
+
+### Provided file
+
+`docker run -v $PWD:/files --name poplog  --rm -it mattjtodd/poplog /files/test.p`
 
 Type `bye` in the command prompt to exit.

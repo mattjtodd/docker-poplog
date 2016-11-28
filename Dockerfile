@@ -32,4 +32,4 @@ RUN set -ex && \
   wget http://www.cs.bham.ac.uk/research/projects/poplog/latest-poplog/$POPLOG_INSTALLER && \
   sh $POPLOG_INSTALLER
 
-CMD ["./poplog.sh", "basepop11"]
+ENTRYPOINT ["./poplog.sh", "basepop11"]
