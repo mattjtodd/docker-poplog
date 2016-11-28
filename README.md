@@ -10,6 +10,8 @@ The core language of Poplog is Pop-11, derived from the Edinburgh University POP
 The other languages are all implemented in Pop-11.
 
 http://www.cs.bham.ac.uk/research/projects/poplog/freepoplog.html
+http://www.cs.bham.ac.uk/research/projects/poplog/computers-and-thought/index.html
+http://www.poplog.cs.rdg.ac.uk/popbook/help/helpfiles.html
 
 ## Build
 
